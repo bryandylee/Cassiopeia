@@ -1,3 +1,5 @@
+
+
 <img src="https://github.com/YosefLab/cassiopeia/blob/master/docs/_static/logo.png?raw=true" width="400" alt="cassiopeia">
 
 [![Stars](https://img.shields.io/github/stars/YosefLab/cassiopeia?logo=GitHub&color=yellow)](https://github.com/YosefLab/cassiopeia/stargazers)
@@ -5,10 +7,32 @@
 ![Build
 Status](https://github.com/YosefLab/cassiopeia/workflows/cassiopeia/badge.svg)
 [![Coverage](https://codecov.io/gh/YosefLab/cassiopeia/branch/master/graph/badge.svg)](https://codecov.io/gh/YosefLab/cassiopeia)
-
-Cassiopeia: A pipeline for single-cell lineage tracing data
 =============================================================
+Cassiopeia 2.0: Enhancing Efficiency and Performance of Phylogenetic Reconstruction in CRISPR Barcode Lineage Tracing
+=============================================================
+<h3>CS 4775 (Fall 2023) Final Project</h3>
+<h3>Natan Aklilu (nta6), Richard Kim (rk625), Bryan Lee (bdl55), Avi Ruthen (apr67), Dean Zhang (dyz4)</h3>
 
+**Newly Created Solvers:**\
+EntropyGreedySolver\
+RandomHybridGreedySolver\
+FelsensteinGreedySolver\
+PandasGreedySolver\
+MultiThreadGreedySolver\
+MultiProcessGreedySolver\
+
+**Jupyter Notebooks (.pynb) containing figures and tables in final paper:**\
+imputebenchmark1: figures/tables 1 & 2\
+imputebenchmark2: figures/tables 3 & 4\
+impute_felsenstein_benchmark: figures/tables 5 & 6\
+greedybenchmark: figures/tables 7 & 8\
+greedy_felsenstein_benchmark: figures/tables 9 & 10\
+runtimebenchmark: figures/tables 11 & 12
+
+*Running each of these notebooks should allow others to replicate similar results as seen in our paper.*
+
+Installation and Additional (Same as original Cassiopeia repository)
+-----------------------------------------------------------------
 Cassiopeia is an end-to-end pipeline for single-cell lineage tracing experiments.
 The software contained here comes equipped with modules for processing sequencing reads,
 reconstructing & plotting trees, analyzing these trees, and benchmarking new algorithms.
