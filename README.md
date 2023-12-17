@@ -19,7 +19,7 @@ RandomHybridGreedySolver\
 FelsensteinGreedySolver\
 PandasGreedySolver\
 MultiThreadGreedySolver\
-MultiProcessGreedySolver\
+MultiProcessGreedySolver
 
 **Jupyter Notebooks (.pynb) containing figures and tables in final paper:**\
 imputebenchmark1: figures/tables 1 & 2\
